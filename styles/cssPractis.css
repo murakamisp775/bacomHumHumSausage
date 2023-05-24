@@ -1,0 +1,61 @@
+h1{
+  color: blue;
+}
+
+
+a:link{
+  font-weight: bold;
+  background-color: aqua;
+}
+a:hover{
+  opacity: 0.25;
+  cursor: auto;
+  transform: scale(1.3,1.3);
+}
+.btn1 {
+  cursor: pointer;
+  background:  mediumseagreen;
+  padding: 32px;
+  width: 80px;
+  height: 20px;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  transition: all 0.2s;
+  }
+
+.btn2 {
+  cursor: pointer;
+  background:violet;
+  padding: 32px;
+  width: 80px;
+  height: 20px;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  transition: all 0.2s;
+  }
+
+.btn1:hover{
+  transform: scale(1.3,1.3);
+}
+.outer {
+  border: 5px solid black;
+}
+
+.box {
+  padding: 10px;
+  width: calc(40% - 240px);
+  background-color: rebeccapurple;
+  color: white;
+  transform: rotate(0.0005turn);
+}
+
+
+
+.manythings
+#onething
+*
+.box p
+.box p:first-child
+h1, h2, .intro
