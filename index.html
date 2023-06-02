@@ -12,7 +12,7 @@
     <meta property="og:description" content="This is an example page to demonstrate usage of metadata on web pages.">
     <meta property="og:title" content="Metadata; The HTML &lt;head&gt;, on MDN">
 
-    <link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon">
+    <!-- <link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon"> -->
     <link rel="stylesheet" href="./styles/style.css">
     <script src="scripts/script.js" defer></script>
 
@@ -36,6 +36,26 @@
       title="ようこそ雀荘ねこキャットへ">
     <p><a href="#ratio">レートについて</a></p>
     <p><a href="#rule">ルールについて </a></p>
+
+    <label for="weather">今日の天気を選択してください: </label>
+    <select id="weather">
+      <option value="">--選択してください--</option>
+      <option value="sunny">晴れ</option>
+      <option value="rainy">雨</option>
+      <option value="snowing">雪</option>
+      <option value="overcast">曇り</option>
+    </select>
+    <br>
+    <label for="guessField">予想を入力してください: </label><input type="text" id="guessField" class="guessField">
+    <input type="submit" value="予想を投稿" class="guessSubmit">
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+
+    まことくその極み変更
+
     <h2 id="ratio">レート</h2>
     <ol>
       <li>1000点100円</li>
